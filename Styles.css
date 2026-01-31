@@ -1,0 +1,139 @@
+
+/* ===== RESET ===== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#0b0f1a;
+  color:white;
+  line-height:1.6;
+}
+
+header{
+  background-color:rgb(20,50,100);
+  padding:20px;
+  text-align:center;
+}
+
+header h1{
+  color:#00b4ff;
+  font-size:2.2rem;
+}
+
+nav{
+  margin-top:10px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 12px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#00b4ff;
+}
+
+/* ===== SECTIONS ===== */
+section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
+img{
+  border-radius:50% ;
+}
+
+h2{
+  color:#00b4ff;
+  margin-bottom:15px;
+  text-align:center;
+}
+
+p{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* ===== HERO ===== */
+#home{
+  text-align:center;
+}
+
+#home h2{
+  font-size:2.5rem;
+}
+
+#home span{
+  color:#00b4ff;
+}
+
+/* ===== SKILLS ===== */
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.skill-box{
+  background:#132238;
+  padding:15px;
+  border-radius:8px;
+  text-align:center;
+}
+
+
+/* ===== PROJECTS ===== */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:15px;
+}
+
+.project-card{
+  background:#132238;
+  padding:15px;
+  border-radius:8px;
+}
+
+/* ===== CONTACT ===== */
+form{
+  max-width:400px;
+  margin:auto;
+}
+
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:none;
+  border-radius:5px;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:#00b4ff;
+  border:none;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+button:hover{
+  background:#0090cc;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#0d1b2a;
+  margin-top:40px;
+}
